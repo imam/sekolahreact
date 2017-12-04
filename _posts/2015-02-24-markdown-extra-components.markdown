@@ -12,6 +12,7 @@ category: blog
 author: jamesfoster
 description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+hidden: true
 ---
 
 ## Summary:
@@ -188,6 +189,9 @@ Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste o
 {% endhighlight %}
 
 <iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="rrpgNB" data-default-tab="html,result" data-user="gaearon" data-embed-version="2" data-pen-title="Hello World in React" class="codepen">See the Pen <a href="https://codepen.io/gaearon/pen/rrpgNB/">Hello World in React</a> by Dan Abramov (<a href="https://codepen.io/gaearon">@gaearon</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 [1]: http://daringfireball.net/projects/markdown/
 [2]: http://www.fileformat.info/info/unicode/char/2163/index.htm

@@ -18,7 +18,7 @@ title: Blog
 
 		{% include pagination.html%}
 	{% else %}
-		{% for post in site.posts %}
+		{% for post in site.posts reversed %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
 					{% include blog-post.html %}
