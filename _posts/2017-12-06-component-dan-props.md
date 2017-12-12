@@ -56,4 +56,4 @@ Setelah itu, secara otomatis jendela preview akan menghasilkan tampilan dibawah:
 
 ![a](\assets\images\lets-get-started\2017-12-12_220517.png)
 
-Dan selamat! Sekarang, kita telah memberikan elemen dengan ID `root` di HTML kita ke React secara keseluruhan untuk dirender sesuai kebutuhan, _your amazing future react applications start here_ :).
+Dan selamat! Sekarang, kita telah memberikan elemen dengan ID `root` di HTML kita ke React secara keseluruhan untuk dirender sesuai kebutuhan, _your amazing future react applications start here_ :). 
