@@ -16,16 +16,17 @@ class Youtubeku extends React.Component{
 ...
 render(){
     return <div>
-      <Youtube videoId={this.state.videoId} onReady={this._onReady} opts={this.state.opts}/><br/>
+      <Youtube videoId={this.state.videoId} onReady={this._onReady} onStateChange={this._onStateChange} opts={this.state.opts}/><br/>
       <button onClick={this.play}>Play Video</button>
       <button onClick={this.pause}>Pause Video</button>
+      <span>{this.state.videoState}</span>
     </div>
   }
 ...
 }
 {% endhighlight %}
 
-Dan terakhir, adalah kode panjang diatas. Saya membuat sebuah komponen `Youtubeku`  , yang berisi `komponen Youtube` dan dua button `Play video` dan `Pause video` . Silahkan jika anda ingin membaca isi tab Babel, namun anda tidak perlu memahami secara keseluruhan semuanya untuk sekarang :).
+Dan terakhir, adalah kode panjang diatas. Saya membuat sebuah komponen `Youtubeku`  , yang berisi `komponen Youtube`  , dua button `Play video` dan `Pause video` , dan teks untuk menunjukkan status video. Silahkan jika anda ingin membaca isi tab Babel, namun anda tidak perlu memahami secara keseluruhan semuanya untuk sekarang :).
 
 {% highlight jsx %}
 ReactDOM.render(
@@ -37,7 +38,9 @@ ReactDOM.render(
 )
 {% endhighlight %}
 
-Dengan saya membuat sebuah komponen baru, saya dapat melakukan apapun yang saya inginkan ke komponen tersebut, dan saya dapat merender 2 komponen yang sama, hanya `videoId` yang berbeda.
+Dengan saya membuat sebuah komponen baru, saya dapat melakukan apapun yang saya inginkan ke komponen tersebut, dan saya dapat merender 2 komponen yang sama, hanya `videoId` yang berbeda. 
+
+Sehingga terlihat, salah satu manfaat dalam menggunakan React, bahwa sebuah komponen bisa memiliki seluruh fungsionalitas tersendiri, dan seluruh fitur yang akan kita buat untuk sebuah komponen, tidak akan bercampur dengan komponen lain dan membuat bingung kita.
 
 <div class="breaker"></div>
 
