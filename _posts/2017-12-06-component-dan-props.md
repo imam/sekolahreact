@@ -38,6 +38,8 @@ Pastikan script React berada diatas script ReactDOM
 
 ![a](\assets\images\lets-get-started\2017-12-12_215118.png)
 
+Setelah itu, tekan Close (Atau Save & Close juga anda telah login ke CodePen)
+
 Sekarang, kita bisa menaruh kode dibawah ini ke Pen kita:
 
 Taruh di tab HTML
@@ -56,4 +58,8 @@ Setelah itu, secara otomatis jendela preview akan menghasilkan tampilan dibawah:
 
 ![a](\assets\images\lets-get-started\2017-12-12_220517.png)
 
-Dan selamat! Sekarang, kita telah memberikan elemen dengan ID `root` di HTML kita ke React secara keseluruhan untuk dirender sesuai kebutuhan, _your amazing future react applications start here_ :). 
+Dan selamat! Sekarang, kita telah memberikan elemen dengan ID `root` di HTML kita ke React secara keseluruhan untuk dirender sesuai kebutuhan, _your amazing future react applications start here_ :).
+
+<div class="breaker"></div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cbiMJxNQ30w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
